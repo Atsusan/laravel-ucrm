@@ -15,5 +15,14 @@ return [
         'email' => 'メールアドレス',
         'password' => 'パスワード',
         'name' => '名前',
+        'title' => 'タイトル',
+        'content' => '本文',
+    ],
+
+    'max' => [
+        'numeric' => ':attribute は :max 以下でなければなりません。',
+        'file'    => ':attribute は :max キロバイト以下のファイルでなければなりません。',
+        'string'  => ':attribute は :max 文字以内で入力してください。',
+        'array'   => ':attribute は :max 個以下でなければなりません。',
     ],
 ];
