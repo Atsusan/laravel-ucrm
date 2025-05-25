@@ -14,9 +14,11 @@ return [
     'attributes' => [
         'email' => 'メールアドレス',
         'password' => 'パスワード',
-        'name' => '名前',
         'title' => 'タイトル',
         'content' => '本文',
+        'name' => '名',
+        'memo' => 'メモ',
+        'price' => '商品価格',
     ],
 
     'max' => [
