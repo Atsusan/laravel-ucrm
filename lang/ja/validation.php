@@ -8,6 +8,8 @@ return [
     'required'             => ':attribute は必須項目です。',
     'email'                => ':attribute には有効なメールアドレスを指定してください。',
     'unique'               => ':attribute はすでに存在しています。',
+    'date'                 => ':attribute は正しい日付形式で指定してください。',
+    'regex'                => ':attribute の形式が正しくありません。',
     // 追加のメッセージも必要に応じて書き足してください
 
     // 属性名のカスタマイズ
@@ -19,6 +21,13 @@ return [
         'name' => '名',
         'memo' => 'メモ',
         'price' => '商品価格',
+        'kana' => 'カナ',
+        'tel' => '電話番号',
+        'email' => 'メールアドレス',
+        'postcode' => '郵便番号',
+        'address' => '住所',
+        'birthday' => '誕生日',
+        'gender' => '性別'
     ],
 
     'max' => [
